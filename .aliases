@@ -1,0 +1,5 @@
+alias lsl="ls -l"
+alias lsa="la -a"
+alias lsla="ls -la"
+alias c="clear"
+alias grepc="grep --color=always"
