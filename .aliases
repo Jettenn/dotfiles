@@ -5,7 +5,6 @@ PS1='[\u@\h \W]\$ '
 
 #travail
 alias lsl="ls -l"
-alias lsa="ls -a"
 alias lsla="ls -la"
 alias c="clear"
 alias grepc="grep --color=always"
