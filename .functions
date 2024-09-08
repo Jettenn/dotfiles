@@ -3,3 +3,7 @@
 function newdir() {
 	mkdir -p "$@" && cd "$@"
 }
+
+function tvim() {
+	touch "$@" && vim "$@"
+}
