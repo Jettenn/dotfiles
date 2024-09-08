@@ -1,9 +1,9 @@
-#!/bin/bash
-
+function welcome() {
+	echo Welcome!
+}
 function newdir() {
 	mkdir -p "$@" && cd "$@"
 }
-
 function tvim() {
 	touch "$@" && vim "$@"
 }
