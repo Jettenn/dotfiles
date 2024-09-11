@@ -1,3 +1,4 @@
+# fonctions travail
 function newdir() {
 	mkdir -p "$@" && cd "$@"
 }
@@ -6,4 +7,9 @@ function tvim() {
 }
 function mygrep() {
 	grep -i --color=always "$@"
+}
+
+#fonctions perso
+function pushall() {
+	git add --all && git commit -m "$@" &&  git branch -M main && git push -u origin main
 }

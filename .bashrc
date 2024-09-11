@@ -16,3 +16,12 @@ echo "                                                ";
 
 source ~/.functions
 source ~/.aliases
+
+if [ "$USER" == "$HOSTNAME" ]
+then
+    PS1='[\u \W]\$'
+else
+    PS1='[\u@\h \W]\$'
+fi
+
+export PATH=$PATH:/home/ejetten/bin/
